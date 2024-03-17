@@ -21,21 +21,19 @@ def main():
                     Mark,America
                     Schneider,Germany
                     OKenny,Ireland
-                    Mieke,Germany
-                    Generate synthetic data based on these inputs. Produce 5 more examples.
-                    """
+                    Mieke,Germany """
 
     completion = client.chat.completions.create(
         model="LLaMA_CPP",
         messages=[
             {
                 "role": "system",
-                "content": "Generate examples of datas similar to the provided input data",
+                "content": "Generate examples of data similar to the provided input data",
             },
             {"role": "user", "content": content},
         ],
     )
-
+    print(f"Model Used - {completion.model} ")
     print(completion.choices[0].message.content)
 
 
