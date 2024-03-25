@@ -1,9 +1,7 @@
-# LLM-Explorer
 A repository to explore the latest developments in LLMs and run experiments!
-- [LLM-Explorer](#llm-explorer)
-  - [Retrieval-Augmented Generation](#retrieval-augmented-generation)
-  - [Synthetic Data Generation](#synthetic-data-generation)
-  - [Model Fetcher](#model-fetcher)
+- [Retrieval-Augmented Generation](#retrieval-augmented-generation)
+- [Synthetic Data Generation](#synthetic-data-generation)
+- [Model Fetcher](#model-fetcher)
 
 
 ## Retrieval-Augmented Generation
