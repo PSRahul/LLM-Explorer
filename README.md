@@ -4,12 +4,12 @@ A repository to explore the latest developments in LLMs and run experiments!
 - [Model Fetcher](#model-fetcher)
 
 
-## Retrieval-Augmented Generation
+# Retrieval-Augmented Generation
 
  `retrieval-augmented-generation.py`    
 Experiments with a Retrieval-Augmented Generation pipeline using the LangChain and the HuggingFace frameworks.
 
-## Synthetic Data Generation
+# Synthetic Data Generation
  `generate_synthetic_data.py`  
 Generates artifical data from the input content prompt provided using llamafiles version of TinyLlama-1.1B model.
 ```
@@ -44,6 +44,6 @@ The output that is generated is
         10. Name: Tom
         Region: United Kingdom
 ```  
-## Model Fetcher
+# Model Fetcher
  `model_fetcher.py`  
 Fetches an model from the the HuggingFace library and runs an inference through it
